@@ -1,0 +1,30 @@
+.home-title {
+    color: white;
+    font-size: 12vw;
+    position: relative;
+    top: 20%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+
+.home-subtitle {
+    color: white;
+    font-size: 5vw;
+    position: relative;
+    top: 15%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.home-wrapper-div {
+    display:block;
+    position:absolute;
+    background-image: url('home_background.jpg');
+    background-repeat:no-repeat;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    overflow-y: scroll;
+}
