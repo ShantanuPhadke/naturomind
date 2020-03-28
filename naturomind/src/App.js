@@ -27,7 +27,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar className={'navbar'} bg="dark" variant="dark">
-          <Navbar.Brand href="/">Naturomind</Navbar.Brand>
+          <Navbar.Brand href="/home">Naturomind</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="/home">Home</Nav.Link>
               { /*<Link to="/home">
@@ -46,9 +46,6 @@ function App() {
         </Navbar>
         <Switch>
           <Route path="/home">
-            <Home />
-          </Route>
-          <Route path="/">
             <Home />
           </Route>
           <Route path="/treatments">
