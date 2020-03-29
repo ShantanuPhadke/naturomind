@@ -10,9 +10,6 @@ import Videos from './views/Videos/Videos';
 // React Bootstrap related imports
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/FormControl';
-import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // React Router related imports
@@ -35,14 +32,8 @@ function App() {
                 </Link>*/ }
             <Nav.Link href="/treatments">Treatments</Nav.Link>
             <Nav.Link href="/recipes">Recipes</Nav.Link>
-            <Nav.Link href="/photo-gallery">Photo Gallery</Nav.Link>
-            <Nav.Link href="/videos">Videos</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
-          <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-info">Search</Button>
-          </Form>
         </Navbar>
         <Switch>
           <Route path="/home">

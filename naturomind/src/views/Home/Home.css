@@ -1,30 +1,86 @@
+.home {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('home_background.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
 .home-title {
     color: white;
     font-size: 12vw;
-    position: relative;
-    top: 20%;
     bottom: 0%;
     right: 0%;
     left: 0%;
 }
 
 .home-subtitle {
+    position: relative;
     color: white;
     font-size: 5vw;
-    position: relative;
-    top: 15%;
     margin-right: auto;
     margin-left: auto;
+    top: 10%;
 }
 
 .home-wrapper-div {
-    display:block;
-    position:absolute;
-    background-image: url('home_background.jpg');
-    background-repeat:no-repeat;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    background-color: black;
     top: 0%;
     bottom: 0%;
     right: 0%;
     left: 0%;
     overflow-y: scroll;
+}
+
+.home-health-plan {
+    position: relative;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.home-health-plan-title {
+    color: black;
+    font-size: 8vw;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+.home-health-plan-detail-row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0%;
+    width: 100%;
+}
+
+.home-health-plan-detail-tab {
+    display: flex;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+    background-color: #efece2;
+    margin-bottom: 20px;
+}
+
+.home-health-plan-detail-image {
+    width: 20vw;
+    height: 20vw;
+    top: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.home-health-plan-detail-text {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
 }
