@@ -14,14 +14,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // React Router related imports
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <Router basename={`${process.env.PUBLIC_URL}/`}>
       <div className="App">
         <Navbar className={'navbar'} bg="dark" variant="dark">
           <Navbar.Brand href="/home">Naturomind</Navbar.Brand>
@@ -36,22 +36,25 @@ function App() {
           </Nav>
         </Navbar>
         <Switch>
-          <Route path="/home">
+          <Route exact path="/home">
             <Home />
           </Route>
-          <Route path="/treatments">
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/treatments">
             <Treatments />
           </Route>
-          <Route path="/recipes">
+          <Route exact path="/recipes">
             <Recipes />
           </Route>
-          <Route path="/photo-gallery">
+          <Route exact path="/photo-gallery">
             <PhotoGallery />
           </Route>
-          <Route path="/videos">
+          <Route exact path="/videos">
             <Videos />
           </Route>
-          <Route path="/contact">
+          <Route exact path="/contact">
             <Contact />
           </Route>
         </Switch>
