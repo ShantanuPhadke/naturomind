@@ -1,32 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5080324.chunk.css",
-    "main.js": "/static/js/main.ac1bfd3a.chunk.js",
-    "main.js.map": "/static/js/main.ac1bfd3a.chunk.js.map",
+    "main.css": "/static/css/main.82c7ba7c.chunk.css",
+    "main.js": "/static/js/main.4baffb15.chunk.js",
+    "main.js.map": "/static/js/main.4baffb15.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8d0d2bed.js",
     "runtime-main.js.map": "/static/js/runtime-main.8d0d2bed.js.map",
     "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
-    "static/js/2.fe31cc1a.chunk.js": "/static/js/2.fe31cc1a.chunk.js",
-    "static/js/2.fe31cc1a.chunk.js.map": "/static/js/2.fe31cc1a.chunk.js.map",
+    "static/js/2.a800f213.chunk.js": "/static/js/2.a800f213.chunk.js",
+    "static/js/2.a800f213.chunk.js.map": "/static/js/2.a800f213.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3137ede322a4b64432bd5c2a02165955.js": "/precache-manifest.3137ede322a4b64432bd5c2a02165955.js",
+    "precache-manifest.e0a5ef9122f08c4b8a8f4996122b4605.js": "/precache-manifest.e0a5ef9122f08c4b8a8f4996122b4605.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
-    "static/css/main.a5080324.chunk.css.map": "/static/css/main.a5080324.chunk.css.map",
-    "static/js/2.fe31cc1a.chunk.js.LICENSE.txt": "/static/js/2.fe31cc1a.chunk.js.LICENSE.txt",
-    "static/media/Home.css": "/static/media/home_background.429fc6df.jpg",
-    "static/media/home_diet_plan.jpg": "/static/media/home_diet_plan.52380590.jpg",
-    "static/media/home_holistic_approach.jpg": "/static/media/home_holistic_approach.7e5543ee.jpg",
-    "static/media/home_hydrotherapy.jpg": "/static/media/home_hydrotherapy.9bd8b547.jpg",
-    "static/media/home_jogging.jpg": "/static/media/home_jogging.dddf5409.jpg",
-    "static/media/home_total_body_detox.jpg": "/static/media/home_total_body_detox.a03f5b34.jpg",
-    "static/media/home_yoga.jpg": "/static/media/home_yoga.7e874eb2.jpg"
+    "static/css/main.82c7ba7c.chunk.css.map": "/static/css/main.82c7ba7c.chunk.css.map",
+    "static/js/2.a800f213.chunk.js.LICENSE.txt": "/static/js/2.a800f213.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/static/media/blue-sky-clear-sky-cold-fog.8a3ffb63.jpg",
+    "static/media/home_background.jpg": "/static/media/home_background.429fc6df.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8d0d2bed.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.fe31cc1a.chunk.js",
-    "static/css/main.a5080324.chunk.css",
-    "static/js/main.ac1bfd3a.chunk.js"
+    "static/js/2.a800f213.chunk.js",
+    "static/css/main.82c7ba7c.chunk.css",
+    "static/js/main.4baffb15.chunk.js"
   ]
 }
