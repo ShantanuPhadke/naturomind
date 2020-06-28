@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46bfb69508b21c72bd04ad8439fbae3a",
+    "revision": "0b08eac47a70f60b1a814dcc7c94fe0d",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "d0e21b536f863bf3ebef",
+    "revision": "8c141639dc0a7e269d25",
     "url": "/static/css/main.82c7ba7c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.a800f213.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d0e21b536f863bf3ebef",
-    "url": "/static/js/main.4baffb15.chunk.js"
+    "revision": "8c141639dc0a7e269d25",
+    "url": "/static/js/main.f8f78a67.chunk.js"
   },
   {
     "revision": "50d39c078fce6f4d3d23",
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/blue-sky-clear-sky-cold-fog.8a3ffb63.jpg"
   },
   {
-    "revision": "429fc6dff05763914c2838d6f1fdd5c8",
-    "url": "/static/media/home_background.429fc6df.jpg"
+    "revision": "55a9da942d84ba649125354ad43634a6",
+    "url": "/static/media/gargi.55a9da94.png"
   }
 ]);
