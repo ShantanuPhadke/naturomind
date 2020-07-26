@@ -1,0 +1,18 @@
+.how-it-helps-wrapper-div {
+    position: absolute;
+    top: 50px;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    color: black;
+    background-color: #ecf4f3;
+}
+
+.how-it-helps-title {
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4vw;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}

@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
 import Home from './views/Home/Home';
-import Treatments from './views/Treatments/Treatments';
-import Recipes from './views/Recipes/Recipes';
-import Contact from './views/Contact/Contact';
-import PhotoGallery from './views/PhotoGallery/PhotoGallery';
-import Videos from './views/Videos/Videos';
+import HowItHelps from './views/HowItHelps/HowItHelps';
+import Blog from './views/Blog/Blog';
+import Blog2 from './views/Blog/Blog2';
+import Blog3 from './views/Blog/Blog3';
 
 // React Bootstrap related imports
 import Navbar from 'react-bootstrap/Navbar';
@@ -23,16 +22,12 @@ function App() {
   return (
     <Router basename={`${process.env.PUBLIC_URL}/`}>
       <div className="App">
-        <Navbar className={'navbar'} bg="dark" variant="dark">
-          <Navbar.Brand href="/home">Naturomind</Navbar.Brand>
+        <Navbar className={'navbar'} style={{position:'fixed', top:0, width:'100%'}}>
+          <Navbar.Brand href="/#/home" style={{color:'#57a99a'}}>Naturomind</Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link href="/home">Home</Nav.Link>
-              { /*<Link to="/home">
-                Home
-                </Link>*/ }
-            <Nav.Link href="/treatments">Treatments</Nav.Link>
-            <Nav.Link href="/recipes">Recipes</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="/#/home">Home</Nav.Link>
+            <Nav.Link href='/#/how-it-helps'>How It Helps</Nav.Link>
+            <Nav.Link href='/#/blog/1'>Blog</Nav.Link>
           </Nav>
         </Navbar>
         <Switch>
@@ -42,20 +37,17 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/treatments">
-            <Treatments />
+          <Route exact path="/how-it-helps">
+            <HowItHelps />
           </Route>
-          <Route exact path="/recipes">
-            <Recipes />
+          <Route path='/blog/1'>
+            <Blog />
           </Route>
-          <Route exact path="/photo-gallery">
-            <PhotoGallery />
+          <Route path='/blog/2'>
+            <Blog2 />
           </Route>
-          <Route exact path="/videos">
-            <Videos />
-          </Route>
-          <Route exact path="/contact">
-            <Contact />
+          <Route path='/blog/3'>
+            <Blog3 />
           </Route>
         </Switch>
       </div>
