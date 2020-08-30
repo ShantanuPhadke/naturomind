@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3d2c62820ffcbddab0cf76a26c3bbe7",
+    "revision": "a83398060c7721d05d9f58cec1793649",
     "url": "/index.html"
   },
   {
-    "revision": "8c5bfba18ed2bc06b2c8",
+    "revision": "780ab9ef09d2e4aeb319",
     "url": "/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "3e89191232cce7bd5595",
-    "url": "/static/css/main.c7628f9c.chunk.css"
+    "revision": "464094ea78f7b63eed15",
+    "url": "/static/css/main.d2e4a02a.chunk.css"
   },
   {
-    "revision": "8c5bfba18ed2bc06b2c8",
-    "url": "/static/js/2.b146134d.chunk.js"
+    "revision": "780ab9ef09d2e4aeb319",
+    "url": "/static/js/2.e875bd88.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.b146134d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e875bd88.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3e89191232cce7bd5595",
-    "url": "/static/js/main.f89d484c.chunk.js"
+    "revision": "464094ea78f7b63eed15",
+    "url": "/static/js/main.3b9602cb.chunk.js"
   },
   {
     "revision": "50d39c078fce6f4d3d23",
@@ -32,11 +32,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/blue-sky-clear-sky-cold-fog.8a3ffb63.jpg"
   },
   {
+    "revision": "6f7dd26e94bd32f55ae9c2b5dde18498",
+    "url": "/static/media/diet.6f7dd26e.jpg"
+  },
+  {
     "revision": "55a9da942d84ba649125354ad43634a6",
     "url": "/static/media/gargi.55a9da94.png"
   },
   {
     "revision": "66f64264ecfff4b255d5f2c08878478c",
     "url": "/static/media/how-it-helps-2.66f64264.png"
+  },
+  {
+    "revision": "e2252130fecb79278abf6fdfafa56ff2",
+    "url": "/static/media/immune_system.e2252130.jpg"
   }
 ]);
